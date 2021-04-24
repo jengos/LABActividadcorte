@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/nav_drawer_4">
+    <LinearLayout
+        android:background="@drawable/ic_launcher_background"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nombreUsuariodrawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark"
+            android:text="Nombre Usuario"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/correodrawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="correo@corre.com"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
